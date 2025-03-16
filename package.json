@@ -3,9 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "test": "bun test 2>&1 | tee outfile.txt && bun upload.ts"
-   
-  },
+  "test": "bun test"
+}
+,
   "devDependencies": {
     "@types/bun": "latest"
   },
